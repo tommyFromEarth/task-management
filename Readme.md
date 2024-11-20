@@ -35,10 +35,6 @@ In the root of the `./frontend` folder create another with the following variabl
 REACT_APP_API_BASE_URL =  
 ```
 
-Download the latest binary from the [Releases page](https://github.com/karan/joe/releases). It's the easiest way to get started with `joe`.
-
-Make sure to add the location of the binary to your `$PATH`.
-
 ### Running the Backend
 After setting up the environment variables, go to the `./backend` folder and execute the following command lines.
 ```bash
