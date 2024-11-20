@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end; 
+    background-color: #18013a;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-list li {
+    margin: 0;
+  }
+  
+  .navbar-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-list a.active {
+    text-decoration: underline;
+  }
