@@ -5,7 +5,6 @@ import { updateTask } from '../redux/taskSlice';
 import Modal from 'react-modal';
 import { EditTaskProps } from '../interfaces/EditTaskProps';
 
-
 const customStyles = {
     content: {
         top: '50%',

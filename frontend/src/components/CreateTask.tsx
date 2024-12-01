@@ -32,22 +32,16 @@ const CreateTask: React.FC = () => {
         closeModal();
     };
 
-
-
     const openModal = () =>{
         setIsOpen(true);
     }
 
- 
     const closeModal = () => {
         setIsOpen(false);
     }
 
- 
-
     return (
         <>
-      
             <div className='d-flex justify-content-end'>
                 <button className='btn btn-warning' onClick={openModal}>Crear Tarea</button>
 

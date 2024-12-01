@@ -29,7 +29,6 @@ const Login: React.FC = () => {
                         <div className="card mask-custom">
                             <div className="card-body p-4 text-white">
                                 <h2 className='text-white'>Iniciar Sesión</h2>
-
                                 <form onSubmit={handleSubmit}>
                                     <div className="input-group mb-3 mt-5">
                                         <input
@@ -41,7 +40,6 @@ const Login: React.FC = () => {
                                         />
                                     </div>
                                     <div className="input-group mb-3">
-
                                         <input
                                             type="password"
                                             value={password}
